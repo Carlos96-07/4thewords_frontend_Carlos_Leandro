@@ -1,5 +1,24 @@
-# Vue 3 + Vite
+Tecnologías Utilizadas
+Vue.js 3: Framework progresivo para construir interfaces de usuario.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Vite: Herramienta de construcción de frontend de nueva generación.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Vue Router: Para la navegación entre las diferentes vistas de la aplicación.
+
+Axios: Cliente HTTP para realizar peticiones a la API del backend.
+
+CSS Estándar / (Opcional: Tailwind CSS / Bootstrap): Para el estilizado de la aplicación.
+
+Componentización: Uso de componentes reutilizables como Card.vue, Modal.vue.
+
+Protección de Rutas: Las rutas de administración requieren autenticación.
+
+Requisitos Previos:
+
+Node.js (LTS recomendado) instalado.
+
+npm (viene con Node.js) o Yarn instalado.
+
+El Backend debe estar corriendo en http://localhost:8080 (o el puerto configurado).
+
+El frontend está configurado para comunicarse con el backend en http://localhost:8080 
