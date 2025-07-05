@@ -19,6 +19,8 @@ Node.js (LTS recomendado) instalado.
 
 npm (viene con Node.js) o Yarn instalado.
 
+npm run dev
+
 El Backend debe estar corriendo en http://localhost:8080 (o el puerto configurado).
 
 El frontend está configurado para comunicarse con el backend en http://localhost:8080 
