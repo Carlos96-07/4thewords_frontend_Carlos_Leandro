@@ -1,0 +1,49 @@
+/* Reseteo básico y configuración general */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Un modelo de caja más predecible */
+  font-family: 'Avenir', Helvetica, Arial, sans-serif; /* Fuente global */
+  background-color: #f0f2f5; /* Un fondo gris claro agradable para la página */
+  color: #333; /* Color de texto por defecto */
+  min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+  display: flex; /* Para que App.vue pueda usar flex-grow */
+  flex-direction: column; /* Para apilar el contenido verticalmente */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; /* Hereda el box-sizing */
+}
+
+/* Estilos generales para enlaces y botones */
+a {
+  color: #42b983; /* Un verde que contrasta bien */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit; /* Hereda la fuente de body */
+}
+
+/* Puedes añadir más estilos globales aquí para headers, párrafos, etc. */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #2c3e50; /* Un color oscuro para los títulos */
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+#app {
+  /* El div #app (donde se monta tu aplicación Vue) también debe ocupar todo el espacio */
+  flex-grow: 1; /* Permite que el #app ocupe todo el espacio disponible */
+  display: flex;
+  flex-direction: column;
+}
